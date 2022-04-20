@@ -59,7 +59,7 @@ switch (license) {
 
 }; 
 
-// This function puts together the readme.md using the data provided.
+// This function puts together the readme.md using the data passed from the user prompts
 function generateMarkdown(data) {
 
   return `

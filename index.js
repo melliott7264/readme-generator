@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 
 const generateMarkdown = require('./utils/generateMarkdown.js');
@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const writeFile = require('./utils/generate-readme.js');
 
 
-// TODO: Create an array of questions for user input
+// this section collects the user input through a series of questions
 const promptReadme = () => {
 
     return inquirer.prompt([
@@ -158,43 +158,23 @@ const promptReadme = () => {
     ]);
 };
 
-const mockData = {
-
-    name:  'Mark Elliott',
-    title: 'README Generator',
-    license: 'MIT',
-    gitHubUser: 'melliott7264',
-    gitHubRepo: 'readme-generator',
-    email: 'markelliottva@gmail.com',
-    description: 'This applicaton creates a readme.md file.',
-    install: 'Must install npm inquirer.',
-    usage: 'Run node index',
-    contribute: 'Not accepting contributions at this time.',
-    testing: 'Answer all the user prompts and check for a valide README.md file in ./dist at the end.'
-
-  };
-
-// TODO: Create a function to write README file
-// writeFile(data);
-
-// TODO: Create a function to initialize app
+// This function processes the collected user input asynchronously and writes it out to a readme.md file
 function init() {
 
     promptReadme()
-
+    // collect array of user input data and send it to the function to build the readme.md file
     .then ((readmeDataArray) => {
-        console.log(readmeDataArray);
         return generateMarkdown(readmeDataArray);
     })
-
+        // take the output from the markdown function and pass it to a function to write it out to a file
        .then (pageMarkdown => {
         return writeFile(pageMarkdown);
     })
-
+     //  process return codes from the file write and write them to the console
     .then (writeFileResponse => {
         console.log(writeFileResponse);
     })
-
+    // process any uncaught errors and write them to the console
     .catch(err => {
         console.log(err);
     });
@@ -204,5 +184,5 @@ function init() {
 
 };
 
-// Function call to initialize app
+// This function call starts all the processes.
 init();
