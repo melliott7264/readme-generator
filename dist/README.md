@@ -8,20 +8,24 @@
 
 ## Description
 
-This a command line application that solicits input for the user to create a README.md file for a project.
+This is a test.
+
 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
-  
+
+
 ## Installation
 
-Must have node.js, npm and npm inquirer installed.  Then need to copy the index.js file along with the contents of the ./utils folder (generateMarkdown.js and generate-readme.js) as well as the package.json and package-lock.json files.  
+This is a test.
+
 
 ## Usage
 
-Type node index and press the Enter key.   Answer all the questions completely.
+This is a test.
+
 
 ## Credits
 
@@ -30,28 +34,26 @@ Mark Elliott (https://github.com/melliott7264) created this application.
       
 ## License
 
-Copyright &copy; 2022  Mark Elliott
-
-
-
-[MIT License](https://choosealicense.com/licenses/mit/)    
-
-      
+Copyright &copy; 2022  Mark Elliott  under the [MIT License](https://choosealicense.com/licenses/mit/) 
 
 
 ## Contributing
 
-None at this time.
+None.
+
 
 ## Tests
 
-No testing procedures at this time.
+None.
+
 
 ## Questions
+
+If you have questions about this application or the creator, you can get more information at the following GitHub links:
 
 Creator GitHub Link:  https://github.com/melliott7264
 
 Application GitHub Repository:  https://github.com/melliott7264/readme-generator
 
-You can contact the creator here:  markelliottva@gmail.com
+If you have more questions, you can e-mail Mark Elliott at markelliottva@gmail.com.
 
