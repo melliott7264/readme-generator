@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a test.
+This app creates a professional readme.md file.
 
 
 * [Installation](#installation)
@@ -19,12 +19,12 @@ This is a test.
 
 ## Installation
 
-This is a test.
+Install node.js.  Copy the files to a local folder.  Run npm install to install all dependencies including inquirer.
 
 
 ## Usage
 
-This is a test.
+Type node index from the command line in the folder where you copied the files.  Answer all the questions on the screen.  A README.md file will be created in the ./dist folder at the end.
 
 
 ## Credits
@@ -39,12 +39,12 @@ Copyright &copy; 2022  Mark Elliott  under the [MIT License](https://choosealice
 
 ## Contributing
 
-None.
+None at this time.
 
 
 ## Tests
 
-None.
+None at this time.   Either an readme.md file is created or it isn't.  The content should be exactly as typed.
 
 
 ## Questions
