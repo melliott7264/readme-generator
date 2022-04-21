@@ -29,11 +29,10 @@ This application may be downloaded from this GitHub repository: https://github.c
 After all the prerequisites have been installed above, type "node index" on the command line to run the program.  Make sure you are in the directory where the index.js file is located.  Follow all the prompts to provide all the information requested.  At the end,  a README.md file will be created in the ./dist folder.
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+  <video controls="true" allowfullscreen="true">
     <source src="./screenCapture.mp4" type="video/mp4">
   </video>
 </figure>
-
 
 ## Credits
 
