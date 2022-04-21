@@ -4,7 +4,7 @@
 
 Creating a proper readme file is a tedious but important exercise. This application makes the process a little less painful by walking you though the process of generating a professional quality README.md file. You are guided through entering a Description, Installation and Usage instructions, as well as Testing and Contribution information.   You will additonally select a license from which essential copyright lanquage is generated along with a link to your chosen license.  A license badge will be placed at the top of the readme file. Finally, Credits and Questions sections will be added with your GitHub and e-mail information.  
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,12 +21,11 @@ This application may be downloaded from this GitHub repository: https://github.c
 
 ## Usage
 
-After all the prerequisites have been installed above, type "node index" on the command line to run the program.  Make sure you are in the directory where the index.js file is located.  Follow all the prompts to provide all the information requested.  At the end,  a README.md file will be created in the ./dist folder.
+After all the prerequisites have been installed above, type "node index" on the command line to run the program.  Make sure you are in the directory where the index.js file is located.  Follow all the prompts to provide all the information requested.  At the end,  a README.md file will be created in the ./dist folder.   
 
-Note: There is a large .mov file embedded below using HTML5 that walks through the entire readme creation process using this app.  You will have to download the entire repository to view it on your local system.  This file is too big for GitHub to play it.  
+A video demostration of the application is given below.  Note:  This is a large file and may not be visable from within GitHub.
 
-
-<video width="800" src = "./ScreenRecording.mov" controls></video>
+<video width="800" src="./readmeScreencast.mp4" type="video/mp4" controls></video>
 
 ## Credits
 

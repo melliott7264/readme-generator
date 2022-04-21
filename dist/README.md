@@ -8,8 +8,9 @@
 
 ## Description
 
-This app creates a professional readme.md file.
+This application generates a professional README.md file from user input on the command line.
 
+## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -19,12 +20,12 @@ This app creates a professional readme.md file.
 
 ## Installation
 
-Install node.js.  Copy the files to a local folder.  Run npm install to install all dependencies including inquirer.
+Node.js must be installed on the local system.  Must copy all the files form the repository to a local directory.  Run npm install in that directory to install all the dependencies.
 
 
 ## Usage
 
-Type node index from the command line in the folder where you copied the files.  Answer all the questions on the screen.  A README.md file will be created in the ./dist folder at the end.
+Run the application by typing "node index" on the command line and pressing the Enter key.  Answer all the prompts and a readme.md file is created at the end in the ./dist folder.
 
 
 ## Credits
@@ -44,7 +45,7 @@ None at this time.
 
 ## Tests
 
-None at this time.   Either an readme.md file is created or it isn't.  The content should be exactly as typed.
+None at this time.
 
 
 ## Questions
