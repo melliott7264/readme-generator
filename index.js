@@ -166,8 +166,8 @@ function init() {
     .then ((readmeDataArray) => {
         return generateMarkdown(readmeDataArray);
     })
-        // take the output from the markdown function and pass it to a function to write it out to a file
-       .then (pageMarkdown => {
+    // take the output from the markdown function and pass it to a function to write it out to a file
+    .then (pageMarkdown => {
         return writeFile(pageMarkdown);
     })
      //  process return codes from the file write and write them to the console
@@ -178,9 +178,6 @@ function init() {
     .catch(err => {
         console.log(err);
     });
-
-    // const pageMarkdown = generateMarkdown(mockData);
-    // returnCode = writeFile(pageMarkdown);
 
 };
 
