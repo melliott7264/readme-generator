@@ -23,9 +23,9 @@ This application may be downloaded from this GitHub repository: https://github.c
 
 After all the prerequisites have been installed above, type "node index" on the command line to run the program.  Make sure you are in the directory where the index.js file is located.  Follow all the prompts to provide all the information requested.  At the end,  a README.md file will be created in the ./dist folder.   
 
-A video demostration of the application is given below.  Note:  This is a large file and may not be visable from within GitHub.
+A video demostration of the application is given below in the YouTube link.  
 
-<video width="800" src="./readmeScreencast.mp4" type="video/mp4" controls></video>
+https://youtu.be/OYQHhQJFpsw
 
 ## Credits
 
